@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #001861;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar h1, .navbar div {
+    margin: auto;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.blog-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+.read-more {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: #001861;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.post-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.post-header {
+    text-align: center;
+    background-color: #2196F3;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #D3D3D3;
+    padding: 1rem;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.author-info .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.post-content img {
+    width: 100%;
+    height: auto;
+}
+
+.social-sharing {
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-sharing .social-button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.social-sharing .twitter {
+    background-color: #1DA1F2;
+}
+
+.social-sharing .facebook {
+    background-color: #1877F2;
+}
+
+.social-sharing .linkedin {
+    background-color: #0A66C2;
+}
+
+footer p {
+    color: white;
+}
